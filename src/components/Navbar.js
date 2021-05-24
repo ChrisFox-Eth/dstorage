@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Identicon from 'identicon.js';
-import box from '../box.png'
+import fox from '../fox.png'
 
 class Navbar extends Component {
 
@@ -13,8 +13,8 @@ class Navbar extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={box} width="30" height="30" className="align-top" alt="" />
-          D$t0r@g3
+          <img src={fox} width="40" height="40" className="align-top" alt="" />
+          DropFox
         </a>
         <ul className="navbar-nav px-3">
           <li>
